@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+	
+    <link href="owfont/owfont-regular.min.css" rel="stylesheet" >
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main" >
+        <section class="left_section ">
+            <nav class="left_section__nav">
+                <div class="section__logo logo">
+                    <span>forecast</span>
+                </div>
+                <div class="widget widget__location">
+                    <div class="widget__icon">
+                        <svg width="20px" height="20px" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M10 20S3 10.87 3 7a7 7 0 1 1 14 0c0 3.87-7 13-7 13zm0-11a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"/></svg>
+                    </div>
+                    
+                    <div class="widget__info">
+                        <span class="widget__title">Current location</span>
+                        <span class="widget__text" > Country/city</span>
+                    </div>
+                   
+                </div>
+            </nav>
+            <div class="section__content">
+                <h2 class="left_section__title">The only Weather Forecast You Need</h2>
+                <form class="search__box">
+                    <input type="text" placeholder="Enter location" class="search__input input">
+                    <button type="submit" class="search__button"><svg version="1.1" id="Capa_1"  x="0px" y="0px"
+                        viewBox="0 0 183.792 183.792" style="enable-background:new 0 0 183.792 183.792;" xml:space="preserve">
+                   <path d="M54.734,9.053C39.12,18.067,27.95,32.624,23.284,50.039c-4.667,17.415-2.271,35.606,6.743,51.22
+                       c12.023,20.823,34.441,33.759,58.508,33.759c7.599,0,15.139-1.308,22.287-3.818l30.364,52.592l21.65-12.5l-30.359-52.583
+                       c10.255-8.774,17.638-20.411,21.207-33.73c4.666-17.415,2.27-35.605-6.744-51.22C134.918,12.936,112.499,0,88.433,0
+                       C76.645,0,64.992,3.13,54.734,9.053z M125.29,46.259c5.676,9.831,7.184,21.285,4.246,32.25c-2.938,10.965-9.971,20.13-19.802,25.806
+                       c-6.462,3.731-13.793,5.703-21.199,5.703c-15.163,0-29.286-8.146-36.857-21.259c-5.676-9.831-7.184-21.284-4.245-32.25
+                       c2.938-10.965,9.971-20.13,19.802-25.807C73.696,26.972,81.027,25,88.433,25C103.597,25,117.719,33.146,125.29,46.259z"/>
+                   
+                   </svg>
+                   </button>
+                </form>
+            </div>
+            <div class="menu__icon">
+                <span></span>
+            </div>
+        </section>
+      
+        <section class="right_section">
+            <div class="section__row">
+                <h1 class="right_section__title">Today</h1>
+            </div>
+           
+            <div class="weather">
+                <div class="weather__container">
+                    <h1 class="weather__temp">32</h1>
+                    <div class="weather__forecast">
+                        <span class="weather__status" >
+                            Sunny
+                        </span>
+                        <div class="weather__icon">
+                            
+                        </div>
+                    </div>
+                    <div class="date">
+                        <span class="weekDay"></span>
+                        <span class="day"></span>
+                        <span class="month"></span>
+                        <span class="year"></span>
+                    </div>
+                </div>
+                <div class="weather__desc">
+                    <span class="feels"></span>
+                    <span class="humidity"></span>
+                    <span class="cloudCover"></span>
+                    <span class="pressure"></span>
+        
+                </div>
+               
+
+            </div>
+            <div class="section__row">
+                <h2 class="right_section__subtitle">Daily</h2>
+            </div>
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide" >
+                    <div class="weather__container weather_slider__container">
+                        <h1 class="weather__temp"></h1>
+                        <div class="weather__forecast">
+                            <span class="weather__status" >
+                                
+                            </span>
+                            <div class="weather__icon">
+                               
+                            </div>
+                        </div>
+                        <div class="date">
+                            <span class="weekDay"></span>
+                            <span class="day"></span>
+                            <span class="month"></span>
+                            <span class="year"></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="weather__container weather_slider__container">
+                        <h1 class="weather__temp"></h1>
+                        <div class="weather__forecast">
+                            <span class="weather__status" >
+                                
+                            </span>
+                            <div class="weather__icon">
+                               
+                            </div>
+                        </div>
+                        <div class="date">
+                            <span class="weekDay"></span>
+                            <span class="day"></span>
+                            <span class="month"></span>
+                            <span class="year"></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="weather__container weather_slider__container">
+                        <h1 class="weather__temp"></h1>
+                        <div class="weather__forecast">
+                            <span class="weather__status" >
+                                
+                            </span>
+                            <div class="weather__icon">
+                               
+                            </div>
+                        </div>
+                        <div class="date">
+                            <span class="weekDay"></span>
+                            <span class="day"></span>
+                            <span class="month"></span>
+                            <span class="year"></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="weather__container weather_slider__container">
+                        <h1 class="weather__temp"></h1>
+                        <div class="weather__forecast">
+                            <span class="weather__status" >
+                                
+                            </span>
+                            <div class="weather__icon">
+                               
+                            </div>
+                        </div>
+                        <div class="date">
+                            <span class="weekDay"></span>
+                            <span class="day"></span>
+                            <span class="month"></span>
+                            <span class="year"></span>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="weather__container weather_slider__container">
+                        <h1 class="weather__temp"></h1>
+                        <div class="weather__forecast">
+                            <span class="weather__status" >
+                                
+                            </span>
+                            <div class="weather__icon">
+                               
+                            </div>
+                        </div>
+                        <div class="date">
+                            <span class="weekDay"></span>
+                            <span class="day"></span>
+                            <span class="month"></span>
+                            <span class="year"></span>
+                        </div>
+                    </div>
+                  </div>                  
+                
+                
+                </div>
+             
+               
+                
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              
+              
+               
+              </div>
+
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="script.js" ></script>
+    
+</body>
+</html>
